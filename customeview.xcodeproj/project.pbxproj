@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8ACB8E018DE137400F465B2 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ACB8DF18DE137400F465B2 /* img.png */; };
 		D8AF341F18C9E2C50070B64E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AF341E18C9E2C50070B64E /* Foundation.framework */; };
 		D8AF342118C9E2C50070B64E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AF342018C9E2C50070B64E /* CoreGraphics.framework */; };
 		D8AF342318C9E2C50070B64E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AF342218C9E2C50070B64E /* UIKit.framework */; };
@@ -19,6 +20,10 @@
 		D8AF343A18C9E2C50070B64E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AF342218C9E2C50070B64E /* UIKit.framework */; };
 		D8AF344218C9E2C50070B64E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8AF344018C9E2C50070B64E /* InfoPlist.strings */; };
 		D8AF344418C9E2C50070B64E /* customeviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AF344318C9E2C50070B64E /* customeviewTests.m */; };
+		D8AF345018C9E3180070B64E /* tabelvc.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AF344E18C9E3180070B64E /* tabelvc.m */; };
+		D8AF345118C9E3180070B64E /* tabelvc.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8AF344F18C9E3180070B64E /* tabelvc.xib */; };
+		D8AF345A18C9EBB10070B64E /* customeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AF345918C9EBB10070B64E /* customeCell.m */; };
+		D8AF346118CA0EB90070B64E /* Navbar_7.png in Resources */ = {isa = PBXBuildFile; fileRef = D8AF346018CA0EB90070B64E /* Navbar_7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8ACB8DF18DE137400F465B2 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
 		D8AF341B18C9E2C50070B64E /* customeview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customeview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AF341E18C9E2C50070B64E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8AF342018C9E2C50070B64E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +54,12 @@
 		D8AF343F18C9E2C50070B64E /* customeviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "customeviewTests-Info.plist"; sourceTree = "<group>"; };
 		D8AF344118C9E2C50070B64E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8AF344318C9E2C50070B64E /* customeviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customeviewTests.m; sourceTree = "<group>"; };
+		D8AF344D18C9E3180070B64E /* tabelvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabelvc.h; sourceTree = "<group>"; };
+		D8AF344E18C9E3180070B64E /* tabelvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabelvc.m; sourceTree = "<group>"; };
+		D8AF344F18C9E3180070B64E /* tabelvc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tabelvc.xib; sourceTree = "<group>"; };
+		D8AF345818C9EBB10070B64E /* customeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customeCell.h; sourceTree = "<group>"; };
+		D8AF345918C9EBB10070B64E /* customeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customeCell.m; sourceTree = "<group>"; };
+		D8AF346018CA0EB90070B64E /* Navbar_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Navbar_7.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,8 @@
 		D8AF341218C9E2C50070B64E = {
 			isa = PBXGroup;
 			children = (
+				D8AF346018CA0EB90070B64E /* Navbar_7.png */,
+				D8ACB8DF18DE137400F465B2 /* img.png */,
 				D8AF342418C9E2C50070B64E /* customeview */,
 				D8AF343D18C9E2C50070B64E /* customeviewTests */,
 				D8AF341D18C9E2C50070B64E /* Frameworks */,
@@ -109,6 +123,11 @@
 			children = (
 				D8AF342D18C9E2C50070B64E /* AppDelegate.h */,
 				D8AF342E18C9E2C50070B64E /* AppDelegate.m */,
+				D8AF345818C9EBB10070B64E /* customeCell.h */,
+				D8AF345918C9EBB10070B64E /* customeCell.m */,
+				D8AF344D18C9E3180070B64E /* tabelvc.h */,
+				D8AF344E18C9E3180070B64E /* tabelvc.m */,
+				D8AF344F18C9E3180070B64E /* tabelvc.xib */,
 				D8AF343018C9E2C50070B64E /* Images.xcassets */,
 				D8AF342518C9E2C50070B64E /* Supporting Files */,
 			);
@@ -219,7 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8ACB8E018DE137400F465B2 /* img.png in Resources */,
 				D8AF342918C9E2C50070B64E /* InfoPlist.strings in Resources */,
+				D8AF346118CA0EB90070B64E /* Navbar_7.png in Resources */,
+				D8AF345118C9E3180070B64E /* tabelvc.xib in Resources */,
 				D8AF343118C9E2C50070B64E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AF345A18C9EBB10070B64E /* customeCell.m in Sources */,
 				D8AF342F18C9E2C50070B64E /* AppDelegate.m in Sources */,
 				D8AF342B18C9E2C50070B64E /* main.m in Sources */,
+				D8AF345018C9E3180070B64E /* tabelvc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +467,7 @@
 				D8AF344918C9E2C50070B64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8AF344A18C9E2C50070B64E /* Build configuration list for PBXNativeTarget "customeviewTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +476,7 @@
 				D8AF344C18C9E2C50070B64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

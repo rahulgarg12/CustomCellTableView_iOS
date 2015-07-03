@@ -1,20 +1,17 @@
-//
-//  AppDelegate.m
-//  customeview
-//
-//  Created by Sahil Gupta on 07/03/14.
-//  Copyright (c) 2014 Parangat Technologies. All rights reserved.
-//
-
 #import "AppDelegate.h"
+#import "tabelvc.h"
 
 @implementation AppDelegate
+@synthesize tab;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+     tab = [[tabelvc alloc] init];
+    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:tab];
+    [self.window setRootViewController:nvc];
     [self.window makeKeyAndVisible];
     return YES;
 }

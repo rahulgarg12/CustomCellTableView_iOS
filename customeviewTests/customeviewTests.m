@@ -1,11 +1,3 @@
-//
-//  customeviewTests.m
-//  customeviewTests
-//
-//  Created by Sahil Gupta on 07/03/14.
-//  Copyright (c) 2014 Parangat Technologies. All rights reserved.
-//
-
 #import <XCTest/XCTest.h>
 
 @interface customeviewTests : XCTestCase

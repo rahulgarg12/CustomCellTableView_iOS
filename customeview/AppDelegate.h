@@ -1,15 +1,12 @@
-//
-//  AppDelegate.h
-//  customeview
-//
-//  Created by Sahil Gupta on 07/03/14.
-//  Copyright (c) 2014 Parangat Technologies. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import "tabelvc.h"
+
+@class tabelvc;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong,nonatomic) tabelvc *tab;
+//@property (strong,nonatomic) UINavigationController *nvc;
 
 @end
